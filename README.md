@@ -110,3 +110,59 @@ Provides flexible access to backend features via RESTful and GraphQL APIs. Enabl
 ### **Performance Optimization**
 
 Implements caching, indexing, and query optimization to ensure fast response times and scalability. Helps maintain a smooth experience as user and data volume grow.
+
+## API Security
+
+### **Authentication**
+
+**What:** Implements secure user login using token-based methods (e.g., JWT).
+**Why:** Ensures only verified users can access or modify their data, protecting accounts from unauthorized access.
+
+### **Authorization**
+
+**What:** Controls access based on user roles (e.g., host vs. guest).
+**Why:** Prevents users from accessing or modifying resources they don’t own, maintaining system integrity.
+
+### **Rate Limiting**
+
+**What:** Limits the number of API requests from a single user or IP.
+**Why:** Protects against abuse, brute-force attacks, and server overload.
+
+### **Data Validation & Input Sanitization**
+
+**What:** Validates and cleans incoming data at every endpoint.
+**Why:** Prevents injection attacks (e.g., SQL injection, XSS) and maintains data consistency.
+
+### **Encrypted Communication (HTTPS)**
+
+**What:** Uses HTTPS to encrypt all data exchanged between client and server.
+**Why:** Protects sensitive data like login credentials and payment info from interception.
+
+### **Secure Payment Processing**
+
+**What:** Integrates with trusted third-party gateways (e.g., Stripe) for handling payments.
+**Why:** Ensures financial data is handled safely and in compliance with industry standards (e.g., PCI-DSS).
+
+### **Session & Token Security**
+
+**What:** Uses secure tokens with expiration and refresh mechanisms.
+**Why:** Prevents session hijacking and minimizes risk from stolen tokens.
+
+## CI/CD Pipeline
+
+**Continuous Integration (CI)** involves automatically integrating code changes into the main repository frequently, ensuring that new code is tested and merged without disrupting the development flow. **Continuous Deployment (CD)** automates the release of code changes to production after passing tests, ensuring faster, more reliable delivery.
+
+**Why It’s Important for the Project:**
+
+* **Consistency & Reliability**: Automates testing and deployment to reduce human error.
+* **Faster Development Cycle**: Enables faster iteration and feature delivery.
+* **Quick Bug Detection**: Tests every change automatically, helping identify and fix issues early.
+* **Efficient Deployment**: Ensures that the latest, tested code is always deployed, improving the project’s stability.
+
+### **Tools:**
+
+* **GitHub Actions**: Automates workflows for testing, building, and deploying code directly from GitHub.
+* **Docker**: Ensures consistent development and production environments by containerizing the app.
+* **Jenkins**: A widely used tool for automating builds and deployments.
+* **CircleCI**: Another popular CI/CD tool that integrates with GitHub for automated testing and deployment.
+
