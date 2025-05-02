@@ -31,7 +31,7 @@ Caching & Session Management: Redis
 
 Containerization: Docker
 
-CI/CD: GitHub Actions (or any CI tool of choice)
+CI/CD: GitHub Actions 
 
 ### Team Roles
 
@@ -43,8 +43,6 @@ DevOps Engineer: Manages deployment, infrastructure, and CI/CD pipelines.
 
 QA Engineer: Tests API functionality and ensures bug-free, reliable backend performance.
 
-### Here’s a brief explanation of each technology mentioned in your project overview:
-
 ## Technology Stack
 
 * **Django**: A web framework for building and structuring the backend and RESTful APIs.
@@ -55,10 +53,6 @@ QA Engineer: Tests API functionality and ensures bug-free, reliable backend perf
 * **Redis**: Used for caching and managing session data to improve performance.
 * **Docker**: Containerizes the application for consistent development and deployment environments.
 * **CI/CD Pipelines**: Automate testing and deployment to ensure smooth integration of code changes.
-
-Sure! Here's a shortened version with concise fields and relationships:
-
----
 
 ## Database Design
 
@@ -86,3 +80,33 @@ Sure! Here's a shortened version with concise fields and relationships:
 
 **Fields:** `id`, `user`, `property`, `rating`, `comment`
 **Relations:** Written by a user about a property.
+
+## Feature Breakdown
+
+### **User Management**
+
+Allows users to register, log in, and manage their profiles securely. Differentiates between guests and hosts to control access to relevant features (e.g., listing properties vs. booking).
+
+### **Property Management**
+
+Enables hosts to create, update, and delete property listings with details like pricing, location, and availability. Ensures listings are accessible and searchable by users.
+
+### **Booking System**
+
+Lets guests book available properties by selecting check-in/check-out dates. Tracks reservation details and prevents overlapping bookings.
+
+### **Payment Processing**
+
+Handles secure payments for bookings, recording transaction status and amounts. Ensures each booking is tied to a successful payment before confirmation.
+
+### **Review System**
+
+Allows users to leave ratings and comments for properties they’ve stayed in. Helps maintain quality and transparency through user feedback.
+
+### **API Support (REST & GraphQL)**
+
+Provides flexible access to backend features via RESTful and GraphQL APIs. Enables integration with different frontend clients and tools.
+
+### **Performance Optimization**
+
+Implements caching, indexing, and query optimization to ensure fast response times and scalability. Helps maintain a smooth experience as user and data volume grow.
