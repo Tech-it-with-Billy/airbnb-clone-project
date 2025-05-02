@@ -38,3 +38,16 @@ Database Administrator: Designs and optimizes the PostgreSQL database for perfor
 DevOps Engineer: Manages deployment, infrastructure, and CI/CD pipelines.
 
 QA Engineer: Tests API functionality and ensures bug-free, reliable backend performance.
+
+### Here’s a brief explanation of each technology mentioned in your project overview:
+
+## Technology Stack
+
+* **Django**: A web framework for building and structuring the backend and RESTful APIs.
+* **Django REST Framework (DRF)**: Extends Django to create and manage RESTful APIs efficiently.
+* **PostgreSQL**: A robust relational database for storing and querying structured data.
+* **GraphQL**: Provides a flexible way to query and manipulate data via a single endpoint.
+* **Celery**: Handles background tasks like sending emails or processing payments asynchronously.
+* **Redis**: Used for caching and managing session data to improve performance.
+* **Docker**: Containerizes the application for consistent development and deployment environments.
+* **CI/CD Pipelines**: Automate testing and deployment to ensure smooth integration of code changes.
