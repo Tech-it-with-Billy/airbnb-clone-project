@@ -29,3 +29,12 @@ Caching & Session Management: Redis
 Containerization: Docker
 
 CI/CD: GitHub Actions (or any CI tool of choice)
+
+### Team Roles
+Backend Developer: Builds and maintains API endpoints and core backend logic.
+
+Database Administrator: Designs and optimizes the PostgreSQL database for performance and reliability.
+
+DevOps Engineer: Manages deployment, infrastructure, and CI/CD pipelines.
+
+QA Engineer: Tests API functionality and ensures bug-free, reliable backend performance.
