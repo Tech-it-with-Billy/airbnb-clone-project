@@ -1,9 +1,9 @@
 # Airbnb Clone Project
-### Project Overview
+## Project Overview
 
 The AirBnB Clone backend replicates the core functionality of the AirBnB platform. It provides a scalable and secure foundation for managing users, property listings, bookings, payments, and reviews. This backend supports RESTful and GraphQL APIs to ensure flexible and efficient communication with the frontend.
 
-### Project Goals
+## Project Goals
 
 User Management: Register, authenticate, and manage user profiles securely.
 
@@ -17,7 +17,7 @@ Review System: Support posting and managing reviews for properties.
 
 Performance: Optimize data handling through indexing and caching.
 
-### Tech Stack
+## Tech Stack
 
 Backend Framework: Django
 
@@ -33,7 +33,7 @@ Containerization: Docker
 
 CI/CD: GitHub Actions 
 
-### Team Roles
+## Team Roles
 
 Backend Developer: Builds and maintains API endpoints and core backend logic.
 
